@@ -1,0 +1,117 @@
+#boot-over .jumbotron {
+    background-color: #AA95BC;
+    background-image: url(../img/masthead.jpg);
+    background-size: cover;
+    border-radius: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #FFF;
+}
+
+#boot-over a.nav-link {
+    color: #000;
+    font-size: 3rem;
+}
+
+#boot-over a.nav-link:hover {
+    color: #FF8C04;
+    font-size: 3rem;
+}
+
+
+#boot-over nav nav-pills flex-column flex-sm-row {
+    text-align: right;
+    color: #000;
+    font-size: 3rem;
+    
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.5;
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-family: 'Ultra', serif;
+}
+
+h2 {
+    font-family: 'Ultra', serif;
+}
+
+h3 {
+    font-family: 'Ultra', serif;
+}
+
+
+#boot-over img {
+    width: 100%;
+    height: auto;
+}
+
+
+#boot-over .social a span {
+    font-size: 2rem;
+}
+
+#boot-over footer {
+    text-align: center;
+}
+
+#boot-over footer p {
+    text-align: center;
+}
+
+ul {
+    display: block;
+    list-style: none;
+}
+
+/*
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+    
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+
+ul.topnav li a:hover {
+    background-color: #37CA43;
+}
+*/
+
+@media screen and (max-width: 600px){
+    body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.5;
+    font-size: 0.75rem;    
+}
+    
+    
+
+
+@media only screen and (min-width: 30rem) {
+    body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;    
+}
+    
+
+}
+
+
+
